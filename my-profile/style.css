@@ -1,5 +1,5 @@
 #header {
-    background-color:black;
+    background-color:rgb(238, 0, 0);
     color:white;
 
     text-align:center;
@@ -9,26 +9,77 @@
     padding:5px;
 }
 
+#box {
+    width: 80%;
+    margin: 5%;
+    padding: 5%;
+    border-style:solid;
+    border-color: #8a00e66e;
+    border-width: 1cm
+}
+
+strong{
+    width: 10px;
+    margin: 100px;
+    padding: 5px;
+}
+
 /*头标题, 我的简历*/
-#h1
+h1
 {
-    background-color:black;
+    background-color:rgb(114, 64, 64);
     color:white;
     text-align:center;
     padding:5px;
 }
 
-/*二级标题, 各个块*/
-#h2
-{
-    background-color:#eeeeee;
+/*二级标题, 各个块标题*/
+h2{
+    background-color:#dfc5c5;
+    font-size: "微软雅黑";
+    border-bottom: darkslategray;
+    border-bottom: 2mm;
 }
 
-#table
-{
-    align:center;
-
+h3{
+    font-family: "微软雅黑";
+    font-size: 15px;
+    font-weight:bold;
 }
+
+
+
+/* td{
+    text-align:center;
+} */
+
+/*横线*/
+#line{
+    border-bottom: darkslategray;
+    border-bottom: 2mm;
+}
+
+/*项*/
+#item{
+    font-family: "微软雅黑";
+    font-size: 5px;
+    font-weight:bold;
+}
+
+/*值*/
+p{
+    font-family: "微软雅黑";
+    font-size: 5px;
+}
+
+
+
+
+
+
+
+
+
 
 #nav {
     line-height:30px;

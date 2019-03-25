@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>个人简历</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+        
+	<body>
+        <div id="box">
+            
+            <h1>个人简历</h1>
+            <form name="bashInfo" action="/cgi-bin/post-query method=POST">
+                <h2>基本信息</h2>
+                <strong>姓名:</strong><input type="text" id="nameBox" value="李永辉">  
+                <strong>出生日期:</strong><input type="text" id="brday" value="1996.05.24">
+                <strong>学历:</strong>
+                <select name="edu"><option value="本科">本科</option><option value="硕士">硕士</option></select><br><br>
+                <strong>性别:</strong><input type="radio" name="sex" value="男" checked>男<input type="radio" name="sex" value="女">女
+                <strong>专业:</strong><input type="text" id="major" value="计算机科学与技术"> 
+                <strong>电话:</strong><input type="text" id="tel" value="18700575796"> <br><br>
+                <a href="https://github.com/NorthWardTop"><strong>Github: https://github.com/NorthWardTop</strong></a><a href="yonghuilee.cn@gmail.com"><strong>Email: yonghuilee.cn@gmail.com</strong></a>
+                <input type="submit" value="提交基本信息" size="20px">
+                <input type="reset" value="重置基本信息" size="20px">
+            </form>
+
+            <form name="eduHistory" action="/cgi-bin/post-query method=POST">
+                <h2>教育背景</h2>
+            </form>
+
+        </div>
+    </body>
+</html>
