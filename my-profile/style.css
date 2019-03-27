@@ -47,6 +47,9 @@ h3{
     font-weight:bold;
 }
 
+right{
+    float: right;;
+}
 
 
 /* td{
@@ -71,8 +74,10 @@ p{
     font-family: "微软雅黑";
     font-size: 5px;
 }
-
-
+/* 
+td{
+    align: "center";
+} */
 
 
 
@@ -89,6 +94,7 @@ p{
     float:left;
     padding:5px;	      
 }
+
 #section {
     width:350px;
     float:left;
