@@ -42,14 +42,21 @@ h2{
 }
 
 h3{
-    font-family: "微软雅黑";
-    font-size: 15px;
-    font-weight:bold;
+    /* background-color:rgb(114, 64, 64); */
+    color:white;
+    text-align:center;
+    padding:5px;
 }
 
-right{
-    float: right;;
+th{
+    text-align: "left";
 }
+
+
+
+/* right{
+    float: right;;
+} */
 
 
 /* td{
